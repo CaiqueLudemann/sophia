@@ -78,4 +78,4 @@ consonantButton.onclick = randomConsonant;
 vowelButton.onclick = randomVowel;
 switchCaseButton.onclick = switchCase;
 animalSubmit.onclick = checkInput;
-switchAnimalImage.onclick = changeAnimals
+switchAnimalImage.onclick = changeAnimals;
