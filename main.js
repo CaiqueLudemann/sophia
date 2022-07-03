@@ -9,7 +9,6 @@ let animalsArray = ["./resources/dog.webp", "./resources/cat.webp", "./resources
 let image = document.getElementById('animalPic');
 let animalInput = document.getElementById('inputAnimal');
 let animalSubmit = document.getElementById('submitAnimal')
-// let regEx = /(http:\/\/127.0.0.1:5500\/resources\/)[a-zA-Z]{2}/;
 let switchAnimalImage = document.getElementById('switchAnimal');
 
 function randomNumber(){
@@ -49,8 +48,9 @@ function switchCase(){
 }
 
 function checkInput(){
-    let userInput = animalInput.value.slice(0,2);
-    let imageName = image.src.slice(32,34);
+    // let regEx = /^[a-zA-Z]{2,}.*/;
+    let userInput = animalInput.value.slice(0,2).toLowerCase();
+    let imageName = image.src.slice(32,34).toLowerCase();
     let randomAnimal = animalsArray[Math.floor(Math.random()*animalsArray.length)];
     if (userInput === imageName) {
         image.src = randomAnimal;
