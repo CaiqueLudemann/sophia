@@ -5,7 +5,7 @@ header h1{
     justify-content: center;
 
     font-family: cursive;
-    font-size: 80px;
+    font-size: 3em;
 }
 
 main{
@@ -14,29 +14,30 @@ main{
 }
 
 main #consonant, main #vowel{
-    font-size: 40px;
+    font-size: 4em;
+    padding: 0.1em;
 }
 
-h2 #word{
-    font-size: 40px;
-    position: relative;
-    left:50%;
-}
 
-/* input{
-    font-size: 40px;
-    vertical-align: top;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
-} */
+.container{
+    display: flex;
+    justify-content: center;
+}
 
 #button-1, #button-2{
-    display: inline-block;
-    font-size: 24px;
-    margin-top: 10px;
-    width: 25%;
-    margin-left: 41%;
-    
+    font-size: 1.5em;
+}
+
+#button-2{
+    margin-left: 0.5em;
+}
+
+#transformCase{
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 1em;
+    font-size: 1.5em;
+    padding: 5px 50px;
+
 }
 
