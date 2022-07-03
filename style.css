@@ -24,8 +24,11 @@ main #consonant, main #vowel{
     justify-content: center;
 }
 
-#button-1, #button-2{
+#button-1, #button-2, #transformCase{
     font-size: 1.5em;
+    border-radius: 20px;
+    padding: 5px 20px;
+    border-color: rgba(0, 0, 0, 0.15);
 }
 
 #button-2{
@@ -36,8 +39,27 @@ main #consonant, main #vowel{
     margin-left: 50%;
     transform: translate(-50%);
     margin-top: 1em;
-    font-size: 1.5em;
-    padding: 5px 50px;
+}
 
+#animalPic{
+    width: 10em;
+}
+
+#inputAnimal{
+    display: block;
+    margin-bottom: 0.5em;
+    font-size: 1.5em;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.3);
+}
+
+.newAnimal{
+    display: block;
+    font-size: 1.5em;
+    border-radius: 10px;
+    padding: 5px 20px;
+    border-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 5px;
+    margin-bottom: 50px;
 }
 

@@ -1,37 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+
     <title>Sophia</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Sophia Lima Fortlage Ludemann</h1>
+      <h1>Sophia Lima Fortlage Ludemann</h1>
     </header>
-    <hr>
+    <hr />
 
     <main>
-        <!-- <p id="consonant">_</p>
-        <p id="vowel">_</p> -->
-        <h2 id="consonant"></h2>
-        <h2 id="vowel"></h2>
-
+      <h2 id="consonant">_</h2>
+      <h2 id="vowel">_</h2>
     </main>
-    <!-- <input type="text"> -->
 
     <div class="container">
-        <button id="button-1">Consoante</button>
-        <button id="button-2">Vogal</button>
-        
+      <button id="button-1">Consoante</button>
+      <button id="button-2">Vogal</button>
     </div>
     <button id="transformCase">trocar</button>
+    <br />
+    <br />
+    <br />
+    <hr />
 
+    <section class="exercise">
+      <h2 class="instructions">
+        Type the missing first two letters for the name of each animal!
+      </h2>
+      <img id="animalPic" src="./resources/dog.webp" alt="dog" />
 
-<script src="./main.js"></script>
+      <form action="/index.html" method="GET">
+        <input id="inputAnimal" name="inputAnimal" placeholder="animal" type="text" autocomplete="off" pattern="[a-zA-Z]{3,}" required>
 
-</body>
+      <input id="submitAnimal" for="inputAnimal" type="submit" name='inputAnimal' class="newAnimal" value="submit">
+      </form>
+
+    </section>
+
+    <script src="./main.js"></script>
+  </body>
 </html>
