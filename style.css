@@ -43,14 +43,16 @@ main #consonant, main #vowel{
 
 #animalPic{
     width: 10em;
+    display: block;
 }
 
 #inputAnimal{
-    display: block;
+    display: inline-block;
+    width: 1.5em;
     margin-bottom: 0.5em;
     font-size: 1.5em;
     border-radius: 5px;
-    border-color: rgba(0, 0, 0, 0.3);
+    border-color: rgba(0, 0, 0, 0.2);
 }
 
 #submitAnimal{
@@ -61,5 +63,10 @@ main #consonant, main #vowel{
     /* border-color: rgba(0, 0, 0, 0.3); */
     box-shadow: 2px 2px 10px;
     margin-bottom: 5px;
+}
+
+#complement{
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
